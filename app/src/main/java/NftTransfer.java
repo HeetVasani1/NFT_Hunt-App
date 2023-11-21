@@ -22,7 +22,7 @@ public class NftTransfer {
         Web3j web3j = Web3j.build(new HttpService(infuraEndpoint));
         
         // Set up credentials for the sender account
-        String privateKey = "ecef7634790105ded52c8e066a429b5c31ffb2e881906ce71b8c0228ca570e76";
+        String privateKey = "ecef7634790105ded52c8e06900429b5c31ffb2e881906ce71b8c0228ca570e76";
         Credentials credentials = Credentials.create(privateKey);
         
         // Set up transaction manager
